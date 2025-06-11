@@ -4,13 +4,19 @@ const Home = () => {
   return (
     <div className="container">
       <div className="leftBar">
-        <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Tata-Motors-logo.svg" className='rightimg'/>
-        <p>connecting aspiration</p>
+        <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Tata-Motors-logo.svg" />
       </div>
       <div className="middle">
-        <ul>
-          <li>FUTURE OF MOBILITY</li>
-          <li>ORGANISATION</li>
+        <ul className="main-list-container">
+          <li className="home-container">
+          Home
+          </li>
+          <ul className="home-container-list">
+            <li>diwali</li>
+            <li>rakhi </li>
+            <li>holi </li>
+          </ul>
+          <li className='organisation'>ORGANISATION</li>
           <li>BUSINESS</li>
           <li>COROPRATE RESPONSIBILITY</li>
           <li>INVESTORS</li>

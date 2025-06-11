@@ -3,32 +3,103 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+
+
+
+    -bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+    
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
 }
-
-
+.leftbar img{
+    max-width: 100%;
+        height: auto;
+}
 .rightBar img{
     width: 124px;
-    height: 100px;
-    /* color: white; */
-    background-color: white;
+        height: 100px;
 }
-.rightimg{
-    max-width: 100%;
-        height: auto
-    /* background-color: black; */
-}
-
-ul{
+.main-list-container{
     display: flex;
 }
-li{
+.main-list-container li{
     list-style: none;
 }
-ul li{
-    margin-left:10px ;
-    color:white;
-}
-ul li:hover{
+.main-list-container li{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 0px 17px;
+    transition: 0.3s ease-out;
+    border-radius: 0px;
+    overflow: hidden;
+    }
+.main-list-container li:hover{
     cursor: pointer;
     color: blue;
+}
+
+
+
+.home-container{
+    position: relative;
+    display: inline-block;
+}
+.home-container-list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:red;
+    border: 1px solid red;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+    z-index: 1000;
+}
+.home-container:hover .home-container-list{
+    display: block;
+    
+    background-color: red;
+}
+.organisation{
+    position: relative;
+    /* display: none; */
+    top: 100%;
+    z-index: 1000;
+}
+.organisation-list{
+    position: absolute;
+    /* display: none; */
+    
+    /* top: 100%;  */
+}
+.organisation:hover .organisation ul {
+    display: none;
+    position: absolute;
+}
+
+
+
+
+.home-container-list {
+    display: none;
+    background-color: red;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.home-container:hover .home-container-list {
+    display: block;
+}
+
+.home-container-list {
+    cursor: pointer;
+    position: relative;
 }
