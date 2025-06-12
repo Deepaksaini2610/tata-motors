@@ -9,18 +9,53 @@ const Home = () => {
       <div className="middle">
         <ul className="main-list-container">
           <li className="home-container">
-          Home
+            Home
+            <ul className="home-container-list">
+              <li>diwali</li>
+              <li>rakhi </li>
+              <li>holi </li>
+            </ul>
           </li>
-          <ul className="home-container-list">
-            <li>diwali</li>
-            <li>rakhi </li>
-            <li>holi </li>
-          </ul>
-          <li className='organisation'>ORGANISATION</li>
-          <li>BUSINESS</li>
-          <li>COROPRATE RESPONSIBILITY</li>
-          <li>INVESTORS</li>
-          <li>NEWSROOM</li>
+          <li className="organisation-container">
+            ORGANISATION
+            <ul className="organisation-list">
+              <li>diwali</li>
+              <li>rakhi </li>
+              <li>holi </li>
+            </ul>
+          </li>
+          <li className='buisnes-container'>
+            BUSINESS
+            <ul className="buisness-list">
+              <li>diwali</li>
+              <li>diwali</li>
+              <li>diwali</li>
+            </ul>
+          </li>
+          <li className='responsibility-container'>
+            COROPRATE RESPONSIBILITY
+            <ul className='responsibility-list'>
+              <li>diwali</li>
+              <li>diwali</li>
+              <li>diwali</li>
+            </ul>
+          </li>
+          <li className='investors-container'>
+            INVESTORS
+            <ul className='investors-list'>
+              <li>diwali</li>
+              <li>diwali</li>
+              <li>diwali</li>
+            </ul>
+          </li>
+          <li className='newsroom-container'>
+            NEWSROOM
+            <ul className='newsroom-list'>
+              <li>diwali</li>
+              <li>diwali</li>
+              <li>diwali</li>
+            </ul>
+          </li>
           <li>CAREERS</li>
         </ul>
       </div>
