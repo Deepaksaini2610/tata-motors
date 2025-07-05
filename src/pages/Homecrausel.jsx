@@ -5,7 +5,8 @@ const Homecrausel = () => {
     <div>
       <img
         src={homeOne}
-        style={{  width: "1536px" }}
+        style={{ 
+           width: "1536px" }}
       />
     </div>
   );

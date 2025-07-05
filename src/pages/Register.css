@@ -1,0 +1,38 @@
+.registerform
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+        /* Adjust the position to truly center it */
+
+}
+.registerform input{
+    text-align: center;
+    width: 33.3vw;
+    border-radius: 20px;
+    height: 2rem;
+    border: 2px solid navy;
+}
+.registercontainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+}
+.registerform div{
+    display: flex;
+    flex-direction: column;
+}
+.registerbtn{
+    display: flex;
+    flex-direction: row;
+}
